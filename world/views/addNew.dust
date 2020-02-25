@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>{title}</title>
+	<link rel='stylesheet' href='/stylesheets/style.css'/>
+</head>
+<body>
+	<nav>
+  		<h1>{title}</h1>
+  		<div>
+  			<a href="/">Home</a>
+  			<a href="continents">Continents</a>
+  			<a href="countries">Countries</a>
+  			<a href="addNew">Add new to DB</a>
+  		</div>
+  	</nav>
+  	<form action="/addNewCountry" method="POST">
+  		<label>Country</label>
+  		<input type="text" name="name">
+  		<label>Continent</label>
+  		<input type="text" name="continent">
+  		<label>Area</label>
+  		<input type="number" name="area">
+  		<label>Population</label>
+  		<input type="number" name="population">
+  		<label>Government form</label>
+  		<input type="text" name="governmentForm">
+  		<input type="submit" value="submit">
+  	</form>
+</body>
+</html>

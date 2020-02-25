@@ -11,6 +11,7 @@
             <a href="/">Home</a>
             <a href="continents">Continents</a>
             <a href="countries">Countries</a>
+            <a href="addNew">Add new to DB</a>
         </div>
     </nav>
     <table>

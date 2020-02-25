@@ -6,13 +6,14 @@
 </head>
 <body>
 	<nav>
-        <h1>{title}</h1>
-        <div>
-            <a href="/">Home</a>
-            <a href="continents">Continents</a>
-            <a href="countries">Countries</a>
-        </div>
-    </nav>
+  		<h1>{title}</h1>
+  		<div>
+  			<a href="/">Home</a>
+  			<a href="continents">Continents</a>
+  			<a href="countries">Countries</a>
+  			<a href="addNew">Add new to DB</a>
+  		</div>
+  	</nav>
     <h2>{country}</h2>
     <table>
     	<tr>
