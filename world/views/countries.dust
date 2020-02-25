@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>{title}</title>
+	<link rel='stylesheet' href='/stylesheets/style.css'/>
+</head>
+<body>
+	<nav>
+        <h1>{title}</h1>
+        <div>
+            <a href="/">Home</a>
+            <a href="continents">Continents</a>
+            <a href="countries">Countries</a>
+        </div>
+    </nav>
+    <h2>{country}</h2>
+    <table>
+    	<tr>
+    		<th>
+    			Country
+    		</th>
+    		<th>
+    			Continent
+    		</th>
+    		<th>
+    			Area
+    		</th>
+    		<th>
+    			Population
+    		</th>
+    		<th>
+    			Government form
+    		</th>
+    	</tr>
+    	{#data}
+	    	<tr>
+	    		<td>
+	    			{name}
+	    		</td>
+	    		<td>
+	    			{continent}
+	    		</td>
+	    		<td>
+	    			{area}
+	    		</td>
+	    		<td>
+	    			{population}
+	    		</td>
+	    		<td>
+	    			{governmentForm}
+	    		</td>
+	    	</tr>
+    	{/data}
+    </table>
+    <h2>{city}</h2>
+    <table>
+    	<tr>
+    		<th>
+    			City
+    		</th>
+    		<th>
+    			Is capital
+    		</th>
+    		<th>
+    			Population
+    		</th>
+    		<th>
+    			Country
+    		</th>
+    	</tr>
+    	{#dataTwo}
+    	<tr>
+    		<td>
+    			{name}
+    		</td>
+    		<td>
+    			{isCapital}
+    		</td>
+    		<td>
+    			{population}
+    		</td>
+    		<td>
+    			{country}
+    		</td>
+    	</tr>
+    	{/dataTwo}
+    </table>
+    <h2>{lang}</h2>
+    <table>
+    	<tr>
+    		<th>
+    			Country
+    		</th>
+    		<th>
+    			Is official
+    		</th>
+    		<th>
+    			Language
+    		</th>
+    		<th>
+    			Speakers
+    		</th>
+    	</tr>
+    	{#dataThree}
+    	<tr>
+    		<td>
+    			{country}
+    		</td>
+    		<td>
+    			{isOfficial}
+    		</td>
+    		<td>
+    			{language}
+    		</td>
+    		<td>
+    			{speakers}
+    		</td>
+    	</tr>
+    	{/dataThree}
+    </table>
+</body>
+</html>

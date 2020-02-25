@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>{title}</title>
+	<link rel='stylesheet' href='/stylesheets/style.css' />
+</head>
+<body>
+	<nav>
+        <h1>{title}</h1>
+        <div>
+            <a href="/">Home</a>
+            <a href="continents">Continents</a>
+            <a href="countries">Countries</a>
+        </div>
+    </nav>
+    <table>
+        <thead>
+            <tr>
+                <th>Continents</th>
+            </tr>
+        </thead>
+        <tbody>
+            {#con}
+                <tr><td>{name}</td></tr>
+            {/con}
+        </tbody>
+    </table>
+</body>
+</html>
